@@ -1,0 +1,34 @@
+.rubiesButton{
+    height: 100px;
+    width: 100px;
+    background: url("../images/rubies.jpg");
+    background-size: 100px auto ;
+    background-repeat:no-repeat;
+    /* object-fit: contain; */
+    object-fit: fill;
+}
+
+.diamondButton{
+    height: 100px;
+    width: 100px;
+    background: url("../images/diamond.jpg");
+    background-size: 100px auto ;
+    background-repeat:no-repeat;
+}
+
+.yellowDiamondButton{
+    height: 100px;
+    width: 100px;
+    background: url("../images/yellowDiamond.jpg");
+    background-size: 100px auto ;
+    background-repeat:no-repeat;
+}
+
+.emeraldButton{
+    height: 100px;
+    width: 100px;
+    background: url("../images/emerald.jpg");
+    background-size: 100px auto ;
+    background-repeat:no-repeat;
+}
+
