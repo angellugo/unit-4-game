@@ -11,9 +11,9 @@ var emeraldPoints;
 
 function resetGame() {
     debug && console.log("__________________________Game Reset_________________________");
+    totalPoints = 0;
     randomNumber = Math.floor(Math.random() * (120 - 19 + 1) ) + 19;
     debug && console.log("randomNumber", randomNumber);
-    totalPoints = 0;
     rubyPoints = Math.floor(Math.random() * 12) + 1;
     debug && console.log("rubyPoints", rubyPoints);
     diamondPoints = Math.floor(Math.random() * 12) + 1;
@@ -34,7 +34,8 @@ function resetGame() {
 };
 
 function renderTotalPoints() {
-    document.querySelector("#totalPoints").innerHTML = "Total Points: " + totalPoints;
+    // document.querySelector("#totalPoints").innerHTML = "Total Points: " + totalPoints;
+    $('#totalPoints').text("Total Points: " + totalPoints);
 }
 
 function playerWins() {
