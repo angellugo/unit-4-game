@@ -1,34 +1,50 @@
-.rubiesButton{
+body {
+    background-image: url("../images/abstract.jpg");
+    background-color: #cccccc;
+ }
+ 
+ #rubiesButton{
     height: 100px;
     width: 100px;
     background: url("../images/rubies.jpg");
-    background-size: 100px auto ;
+    background-size: 100px 100px;
     background-repeat:no-repeat;
+    /* background-size: 100px auto; */
     /* object-fit: contain; */
-    object-fit: fill;
+    /* object-fit: fill; */
 }
 
-.diamondButton{
+#diamondButton{
     height: 100px;
     width: 100px;
     background: url("../images/diamond.jpg");
-    background-size: 100px auto ;
+    background-size: 100px 100px;
     background-repeat:no-repeat;
 }
 
-.yellowDiamondButton{
+#yellowDiamondButton{
     height: 100px;
     width: 100px;
     background: url("../images/yellowDiamond.jpg");
-    background-size: 100px auto ;
+    background-size: 100px 100px;
     background-repeat:no-repeat;
 }
 
-.emeraldButton{
+#emeraldButton{
     height: 100px;
     width: 100px;
     background: url("../images/emerald.jpg");
-    background-size: 100px auto ;
+    background-size: 100px 100px;
     background-repeat:no-repeat;
 }
 
+.scores-container{
+    background-color: lightgreen;
+    width: 140px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.instructions{
+    padding-left: 20px;
+}

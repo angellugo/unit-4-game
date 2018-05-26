@@ -20,26 +20,38 @@
 </head>
 
 <body>
-    <h1>The Crystals Collector Game</h1>
+    <h1 class="display-3">The Crystals Collector Game</h1>
 
-    <p>You have been given a random number.</p>
-    <p>There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your total score.</p>
-    <p>To win, you must match your total points to the given random number. You will lose if your score goes above the random
-        number.
-    </p>
-    <p>The value of each crystal is hidden from you until you click on it.</p>
-    <p>Each time when the game starts, the game will change the value of the crystals.</p>
+    <section class="instructions">
+        <h2 class="instructions" class="display-4">Instructions:</h2>
 
-    <p id=randomNumber></p>
-    <p id=wins></p>
-    <p id=losses></p>
+        <div class="instructions">You have been given a random number.</div>
+        <div class="instructions">There are four crystals below. By clicking on a crystal, you will add a specific amount of points to your 
+            total points.</div>
+        <div class="instructions">To win, you must match your total points to the given random number. You will lose if your total points above the random
+            number.</div>
+        <div class="instructions">The value of each crystal is hidden from you until you click on it.</div>
+        <div class="instructions">Each time when the game starts, the game will change the value of the crystals.</div>
+    </section>
 
-    <button class="rubiesButton"></button>
-    <button class="diamondButton"></button>
-    <button class="yellowDiamondButton"></button>
-    <button class="emeraldButton"></button>
 
-    <p id=totalScore></p>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h3 class="display-4">Let's Play!</h1>
+                <p class="lead" id=randomNumber></p>
+                <div class=scores-container>
+                    <div id=wins></div>
+                    <div id=losses></div>
+                </div>
+                <button id="rubiesButton"></button>
+                <button id="diamondButton"></button>
+                <button id="yellowDiamondButton"></button>
+                <button id="emeraldButton"></button>
+                <p class=scores-container class="lead" id=totalPoints></p>
+        </div>
+    </div>
+
+
 
     <script src="assets/javascript/game.js"></script>
 </body>
